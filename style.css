@@ -253,7 +253,7 @@ section p {
 }
 
 .photos {
-    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);;
+    box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
 }
 
 .column-2 {
@@ -317,4 +317,31 @@ section p {
 
 .grow:hover {
     transform: scale(1.5)
+}
+
+.info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    border-radius: 13px;
+}
+
+.single-column {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    background: var(--juniper);
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    border-radius: 13px;
+    box-shadow: 20px 20px 30px var(--hampton);
 }
