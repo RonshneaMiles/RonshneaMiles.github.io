@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="root">
+        <!-- options bar -->
+        <div class="nav-div">
+
+            <nav id="nav-container">
+                <div class="options-container">
+                    <div class="left-wrapper">
+                        <div class="nav-sections grow">
+                            <a href="index.html">About</a>
+                        </div>
+                        <div class="nav-sections grow">
+                            <a href="education.html">Education</a>
+                        </div>
+                        <div class="nav-sections grow">
+                            <a href="projects.html">Projects</a>
+                        </div>
+                        <div class="nav-sections grow">
+                            <a href="history.html">History</a>
+                        </div>
+                        <!-- v* drop down menu button v* -->
+                        <div class="nav-sections grow">
+                            <a href="more.html" class="more-button">More ⯆</a> 
+
+                        </div>
+                    </div>
+                    <div class="right-wrapper">
+                        <div class="nav-sections contact grow">
+                            <a href="index.html">Contact Me!</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+
+        <!-- title bar section -->
+        <div class="title-banner">
+            <h1>Projects</h1>
+        </div>
+        <div class="info-display">
+            <div class="column">
+                <div class="inner-card">
+                    <div class="content">
+                        <h2 class="grow"> <a href="https://ronshneamiles.github.io/questionnaire-app/">Questionnaire App</a></h2>
+                        <p>In a few hours, I was able to design and style a quiz application that allowed a user to choose from multiple choice answers to answer trivia questions. I used HTML to build the structure of the presentation, and JavaScript to add data to the containers. I ran into an issue with answer choices still being "selected" after moving on to the next question. I was able to fix this problem by creating a new function the "de-selected" answer choices after submission.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="inner-card">
+                    <div class="content middle">
+                        <h2 class="grow"> <a href="https://ronshneamiles.github.io/countdown-timer-app/">Countdown App</a></h2>
+                        <p>I created and styled a web application that counts down the time until New Years Day in my own free time. This app took a few hours to complete, and accurately calculates the time left in Days, Hours, Minutes, and seconds. I used JavaScript to build the functions that handled the math part of the app, and I used CSS to style the page and make it appealing to the user. The most difficult part was figuring out the conversions from milliseconds to days.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="inner-card">
+                    <div class="content">
+                        <h2>Rolling Dice</h2>
+                        <p>I decided to figure out how I could make two dice and their added results display as a graph onto a webpage. In this project, I focused on creating algorithms and building a structure for a display. My application allowed a person to choose between rolling one or one thousand pairs of dice, keep track of how many times each number was rolled, and display a bar graph with the accurate results. I completed this activity in one week. I used Visual Studio Code editor to build procedural programming and math expressions in a JavaScript file, added some style to the webpage using a CSS file.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
